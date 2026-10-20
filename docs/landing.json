@@ -1,0 +1,24 @@
+{
+  "seo_title": "Drag-and-drop media converter for macOS",
+  "seo_description": "Free, open-source Mac app to convert video, audio and images. Drop files in, pick a format, and convert locally with Apple frameworks. No uploads.",
+  "hero_title_line1": "Drop files in.",
+  "hero_title_accent": "Get the format you need.",
+  "hero_sub": "Drag videos, audio, images or whole folders onto the window, pick a format for each, and press Convert All (⌘↩). Everything runs locally on your Mac.",
+  "features_title": "Simple conversion, done locally.",
+  "features_sub": "Built on AVFoundation and ImageIO, so there are no command-line tools to install and nothing leaves your Mac.",
+  "features": [
+    {"icon": "folder", "title": "Drop files or whole folders", "desc": "Drag in any number of files, drop them on the Dock icon, or use Add Files (⌘O). Folders are expanded to the regular files inside."},
+    {"icon": "bolt", "title": "Video, audio and image formats", "desc": "Video to MP4 (H.264), MP4 (HEVC) or MOV. Audio to M4A, WAV or AIFF. Images to JPEG, PNG, HEIC or TIFF."},
+    {"icon": "sliders", "title": "Presets for size and quality", "desc": "Choose 1080p, 720p or Original Size for video, and a quality slider and maximum dimension for images. Set defaults in Preferences."},
+    {"icon": "clock", "title": "A queue with live progress", "desc": "Up to two conversions run at once, each with its own progress bar and Cancel button. Reveal in Finder appears when a row is done."},
+    {"icon": "shield", "title": "Never overwrites your files", "desc": "Output goes next to the original or into a folder you choose. If a name is taken, a counter is added, like name 2.mp4. Cancelled or failed jobs leave no partial file."},
+    {"icon": "speaker", "title": "Extract audio from video", "desc": "Videos with an audio track can be exported straight to M4A, WAV or AIFF. Files without audio are reported clearly instead of failing silently."}
+  ],
+  "permissions_step": "No special permissions are required, though macOS may ask to allow access to protected folders like Desktop, Documents or Downloads, which you can manage in System Settings > Privacy & Security > Files and Folders.",
+  "faq": [
+    {"q": "Is DropMediaConverter really free and open source?", "a": "Yes. It is released under the MIT license, and the full source is in the GitHub repository. There are no ads, accounts or paid tiers. If it saves you time, an optional Support button links to Ko-fi."},
+    {"q": "Does it need any special permissions?", "a": "No. It does not ask for Accessibility, Screen Recording or Microphone access. It only reads the files you drop or pick, and writes output next to them or in the folder you choose. macOS may show its usual prompt for protected folders."},
+    {"q": "Where is my data stored?", "a": "Your files stay where they are, and converted copies are saved next to the originals or in your chosen folder. The app makes no network calls and has no analytics. Only your default settings are saved in standard macOS preferences."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode and XcodeGen."}
+  ]
+}

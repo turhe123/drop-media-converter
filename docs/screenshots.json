@@ -1,0 +1,5 @@
+[
+  {"file":"01-converting.png","caption":"A mixed queue of audio, video and images converting side by side, with a live progress bar, Cancel, and Reveal buttons for finished files.","alt":"DropMediaConverter window converting a list of media files"},
+  {"file":"02-settings.png","caption":"Settings set the default video size, image quality and maximum image size applied to newly added files.","alt":"DropMediaConverter Settings window"},
+  {"file":"03-drop-zone.png","caption":"The empty window is one big drop zone: drag in videos, audio, images or whole folders to start.","alt":"DropMediaConverter empty window with a Drop files here zone"}
+]

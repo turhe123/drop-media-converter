@@ -1,5 +1,7 @@
 # DropMediaConverter
 
+**🌐 Website:** [turhe123.github.io/drop-media-converter](https://turhe123.github.io/drop-media-converter/)
+
 Drop videos, audio or images and convert them to common formats with simple presets and a progress list.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ DropMediaConverter is a free, open-source, 100% native, backend-free alternative
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-converting.png" alt="DropMediaConverter window converting a list of media files" width="720"></p>
+
+<p align="center"><em>A mixed queue of audio, video and images converting side by side, with a live progress bar, Cancel, and Reveal buttons for finished files.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="DropMediaConverter Settings window" width="560"></p>
+
+<p align="center"><em>Settings set the default video size, image quality and maximum image size applied to newly added files.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-drop-zone.png" alt="DropMediaConverter empty window with a Drop files here zone" width="560"></p>
+
+<p align="center"><em>The empty window is one big drop zone: drag in videos, audio, images or whole folders to start.</em></p>
 
 ## Install
 
